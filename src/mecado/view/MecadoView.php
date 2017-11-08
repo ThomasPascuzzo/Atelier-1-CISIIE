@@ -1,6 +1,5 @@
 <?php
 
-//allez l'om
 namespace mecado\view;
 
 class MecadoView extends \mf\view\AbstractView {
@@ -9,7 +8,9 @@ class MecadoView extends \mf\view\AbstractView {
         parent::__construct($data);
     }
      
-   
+    private function renderHeader(){
+        return '<h1>Mecado</h1>';
+    }
     
     private function renderFooter(){
         return 'La super app créée en Licence Pro &copy;2017';
