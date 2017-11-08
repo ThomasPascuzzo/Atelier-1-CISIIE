@@ -1,5 +1,5 @@
 <?php
-
+//LUUUUXXXX
 namespace mecado\view;
 
 class MecadoView extends \mf\view\AbstractView {
