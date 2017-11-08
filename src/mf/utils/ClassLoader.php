@@ -12,7 +12,7 @@ class ClassLoader
     
     function loadClass($classe){
         $str = $this->prefix.DIRECTORY_SEPARATOR;
-        $str.= str_replace('\'',DIRECTORY_SEPARATOR,$classe);
+        $str.= str_replace('\\',DIRECTORY_SEPARATOR,$classe);
         $str.= ".php";
         if(file_exists($str)){
             require_once $str;
