@@ -1,5 +1,5 @@
 <?php 
-    require_once 'src\mf\utils\ClassLoader.php';
+    require_once 'src/mf/utils/ClassLoader.php';
     $loader = new \mf\utils\ClassLoader('src');
     $loader->register();
 	//use \mecado\model\Utilisateur as Utilisateur;
@@ -9,7 +9,7 @@
 	$db->addConnection( $config );
 	$db->setAsGlobal();
 	$db->bootEloquent();
-	require_once 'src\mf\router\Router.php';
+	require_once 'src/mf/router/Router.php';
 	session_start();
 	$router = new \mf\router\Router();
 	

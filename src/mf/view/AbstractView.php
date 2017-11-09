@@ -5,7 +5,7 @@ namespace mf\view;
 abstract class AbstractView {
 
     static protected $style_sheets = ['src/mf/html/style.css']; /* un tableau de fichiers style */
-    static protected $app_title    = "Mecado"; /* un titre de document */
+    static protected $app_title    = "MF app Title"; /* un titre de document */
     
     protected $app_root    = null; /* répertoire racine de l'application */
     protected $script_name = null; /* le chemin vers le script principal */
