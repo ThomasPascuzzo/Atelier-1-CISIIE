@@ -1,6 +1,5 @@
 <?php
 
-//allez metz
 namespace mecado\view;
 
 class MecadoView extends \mf\view\AbstractView {
@@ -88,7 +87,7 @@ class MecadoView extends \mf\view\AbstractView {
             if(is_null($uneListe->url))
             {
                 $html .="<input type='hidden' id='id' name='id' value='$uneListe->id'>";
-                $html .= "<td><input type='submit' id='val' name='val' value='URL'></td>";
+                $html .= "<td><input type='submit' id='valider' name='valider' value='URL'></td>";
             }
             else 
             {
