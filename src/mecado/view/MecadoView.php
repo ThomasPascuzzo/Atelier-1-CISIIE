@@ -112,6 +112,8 @@ class MecadoView extends \mf\view\AbstractView {
                 $html .="</tr>";
             }
             $html .= "</table>";
+            $html .= "</form>";
+
         }
         return $html;
     }
