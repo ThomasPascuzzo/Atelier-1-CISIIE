@@ -97,6 +97,15 @@ header {
   padding: none;
   font-weight: lighter; }
 
+  a {
+  font-size: x-large;
+  line-height: 150px;
+  text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+  font-family: "Sergoe print", Arial, Helvetica, sans-serif;
+  color: #FF9933;
+  padding: none;
+  font-weight: lighter; }
+
 footer {
   text-align: center;
   color: white; }

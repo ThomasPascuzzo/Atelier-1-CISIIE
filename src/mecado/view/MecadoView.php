@@ -34,7 +34,7 @@ class MecadoView extends \mf\view\AbstractView {
     }
     
    private function renderFooter(){
-        return 'Mecado &copy; Thomas PASCUZZO - Corentin LUX - Florent PUPPO - Benjamin NAUDIN - Alan BEUGRE';
+        return '<br/><br/><br/><br/>Mecado &copy; Thomas PASCUZZO - Corentin LUX - Florent PUPPO - Benjamin NAUDIN - Alan BEUGRE';
     }
 
 private function renderHome()
