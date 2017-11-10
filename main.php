@@ -26,6 +26,14 @@
 	$router->addRoute('setListe','/setListe/','\mecado\control\MecadoController','setListe');
 	$router->addRoute('supprimerListe','/supprimerListe/','\mecado\control\MecadoController','deleteListe');
 	$router->addRoute('token',    '/token/',         '\mecado\control\MecadoController', 'insertToken');
+	$router->addRoute('ajouterCadeau', '/ajouterCadeau/', '\mecado\control\MecadoController', 'viewAddCadeau');
+	$router->addRoute('checkaddcadeau','/check_addcadeau/','\mecado\control\MecadoController','CreateCadeau');
+	$router->addRoute('liste','/liste/','\mecado\control\MecadoController','viewDetails');
+	$router->addRoute('item','/item/','\mecado\control\MecadoController','viewDetailsItem');
+	$router->addRoute('supprimerItem','/supprimerItem/','\mecado\control\MecadoController','deleteItem');
+	$router->addRoute('modifierItem','/modifierItem/','\mecado\control\MecadoController','viewModifierItem');
+	$router->addRoute('setItem','/setItem/','\mecado\control\MecadoController','setItem');
+	$router->addRoute('reserverItem','/reserverItem/','\mecado\control\MecadoController','reserverItem');
 	
 	$router->addRoute('default', 'DEFAULT_ROUTE',  '\mecado\control\MecadoController', 'viewHome');
 	$router->run();
